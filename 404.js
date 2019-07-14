@@ -14,7 +14,7 @@
 module.exports = (req,res,next) => {
   console.log('Unknown Route');
   res.status(404);
-  res.send("Wiki wiki wild wild west desperato no ya don't get nothing");
+  res.send('Wiki wiki wild wild west desperato no ya don\'t get nothing');
   res.end();
   next();
 };

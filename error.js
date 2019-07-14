@@ -16,9 +16,9 @@
  * @param next
  */
 
-const errorMessage = require('./errorMessage.js')
+const errorMessage = require('./errorMessage.js');
 
-module.exports = (err,req,res,next) => {
+module.exports = (err, req, res, next) => {
   console.log('In the error handler');
   res.status(500);
   res.send(errorMessage);

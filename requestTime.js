@@ -1,4 +1,4 @@
-module.exports =  (req,res,next) => {
-    req.requestTime = new Date();
-    next();
-}
+module.exports = (req, res, next) => {
+  req.requestTime = new Date();
+  next();
+};
